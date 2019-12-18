@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+.App {
+  background-image: url('https://i.etsystatic.com/20586793/r/il/71e536/1929891466/il_570xN.1929891466_pw7z.jpg');
+  background-size: cover;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+.landing {
+  /* width: 90%; */
+  text-align: center;
+  margin: 0 auto;
+  padding: 5% 0;
+}
+.babidi {
+  animation: babi infinite 20s linear;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes babi {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
